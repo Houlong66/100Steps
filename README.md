@@ -1,26 +1,15 @@
 # front-end
 
-## Project setup
+### 安装依赖
 ```
 yarn install
 ```
-
-### Compiles and hot-reloads for development
+没有yarn的话，可以用npm
 ```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
+npm install
 ```
 
-### Run your tests
+### 装完依赖后，跑以下命令，即可访问localhost:8081
 ```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
+npm run serve
 ```
