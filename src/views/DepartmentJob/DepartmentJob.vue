@@ -6,9 +6,9 @@
 export default {
 	name: "DepartmentJob",
 	data () {
-		return {
+		return {}
 
-		}
+
 	}	
 }
 </script>

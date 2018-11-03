@@ -42,7 +42,7 @@ export default {
       switch(command){
       case 'logOut':
         this.$router.push('/')
-        break
+        break;
       default: break
       }
     }
