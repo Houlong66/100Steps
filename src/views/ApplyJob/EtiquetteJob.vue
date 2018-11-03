@@ -11,7 +11,7 @@
 			<h4>申请部门 ： </h4><el-row class="demo-autocomplete">
 				<el-col :span="12">
 					<el-autocomplete
-							class="inline-input"
+							class="inputBox"
 							v-model="state1"
 							:fetch-suggestions="querySearch"
 							placeholder="请输入内容"
