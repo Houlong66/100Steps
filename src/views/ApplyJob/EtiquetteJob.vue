@@ -24,9 +24,9 @@
 			<div class = 'inputElements'>
 				<h4>申请人 ： </h4>
 				<el-input class="inputBox"
-					  placeholder="请输入内容"
-					  v-model="input1"
-					  clearable>
+					placeholder="请输入内容"
+					v-model="input1"
+					clearable>
 				</el-input>
 			</div>
 
@@ -42,17 +42,17 @@
 
 			<div class = 'inputElements'>
 			<h4>活动地点 ： </h4><el-input class="inputBox"
-					  placeholder="请输入内容"
-					  v-model="input2"
-					  clearable>
+				placeholder="请输入内容"
+				v-model="input2"
+				clearable>
 			</el-input>
 			</div>
 			<div class = 'inputElements'>
 			<h4>申请人数 ： </h4>
 			<el-input class="inputBox"
-					  placeholder="请输入内容"
-					  v-model="input3"
-					  clearable>
+				placeholder="请输入内容"
+				v-model="input3"
+				clearable>
 			</el-input>
 			</div>
 		</el-main>
@@ -104,7 +104,7 @@
                 ];
             },
             handleSelect(item) {
-                console.log(item);
+                // console.log(item);
             }
         },
         mounted() {

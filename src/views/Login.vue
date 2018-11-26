@@ -71,9 +71,9 @@
       border-radius: 5px;
       -moz-border-radius: 5px;
       background-clip: padding-box;
-      margin-top: 180px;
-      margin-bottom: 180px;
-      margin-left: 1050px;
+      margin-top: 12%;
+      margin-bottom: 11%;
+      margin-left: 70%;
       width: 350px;
       padding: 35px 35px 15px 35px;
       background: #fff;

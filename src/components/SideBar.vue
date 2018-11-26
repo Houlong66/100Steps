@@ -10,9 +10,9 @@
                          class="el-menu-vertical-demo"
                          :collapse="isCollapse"
                          @select="handleSelect"
-                         background-color="#f17f5b"
+                         background-color="#373d41"
                          text-color="#fff"
-                         active-text-color="#fddc36"
+                         active-text-color="#0cddff"
                 >
                     <el-menu-item index="1">
                         <i class="el-icon-location"></i>
@@ -102,7 +102,7 @@
 </style>
 <style scoped lang="scss">
 $header-height:60px;
-$background-color: #f17f5b;
+$background-color: #373d41;
 $color: #FFF;
 
 aside{
@@ -127,6 +127,16 @@ aside{
         border-right:0;
 
 
+    }
+    .el-submenu__title i , .el-menu-item i {
+        color: #cecaca;
+    }
+    .el-menu-item.is-active i {
+        color: inherit !important;
+    }
+    .el-menu-item.is-active {
+        color: #fff !important;
+        background-color: #028ab7 !important;
     }
 
 }

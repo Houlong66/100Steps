@@ -52,7 +52,7 @@ export default {
 
 <style scoped lang="scss">
 $header-height:60px;
-$background-color: #f17f5b;
+$background-color: #373d41;
 $color: #FFF;
 
 *{
